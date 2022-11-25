@@ -45,5 +45,7 @@
     "gridUnits": "meters",
     "primaryTokenAttribute": "resources.health",
     "secondaryTokenAttribute": "resources.power",
-    "url": "https://github.com/szczwany12/war_stories_rpg"
+    "url": "https://github.com/szczwany12/war_stories_rpg",
+    "manifest": "https://github.com/szczwany12/war_stories_rpg/blob/main/system.json",
+    "download": "blank"
 }
