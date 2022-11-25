@@ -1,0 +1,49 @@
+{
+    "id": "warstories",
+    "title": "War Stories a WW2 RPG",
+    "version": "0.1",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10",
+        "maximum": "10"
+    },
+    "authors": [
+        {
+            "name": "Marcin Kmieć"
+        }
+    ],
+    "scripts": [
+        "scripts/system-scripts.js"
+    ],
+    "styles": [
+        "styles/system-styles.css"
+    ],
+    "packs": [
+        {
+            "name": "enemies",
+            "label": "Enemies",
+            "path": "packs/enemies.db",
+            "type": "Actor"
+        },
+        {
+            "name": "items",
+            "label": "My Items",
+            "path": "packs/items.db",
+            "type": "Item"
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "socket": false,
+    "initiative": "1d20",
+    "gridDistance": 1,
+    "gridUnits": "meters",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.power",
+    "url": "https://github.com/szczwany12/war_stories_rpg"
+}
